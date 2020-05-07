@@ -55,7 +55,7 @@ const int CDV_LOCATION_MANAGER_INPUT_PARSE_ERROR = 100;
  *
  *  Discussion:
  *      Called from the DOM by the LocationManager Javascript object when it's delegate has been set.
- *      This is to notify the native layer that it can start sending queued up events, like didEnterRegion, 
+ *      This is to notify the native layer that it can start sending queued up events, like didEnterRegion,
  *      didDetermineState, etc.
  *
  *      Without this mechanism, the messages would get lost in background mode, because the native layer
@@ -63,6 +63,8 @@ const int CDV_LOCATION_MANAGER_INPUT_PARSE_ERROR = 100;
  *      LocationManager of the DOM.
  */
 - (void)onDomDelegateReady:(CDVInvokedUrlCommand*)command;
+
+- (void)initPlugin:(CDVInvokedUrlCommand*)command;
 
 - (void)startMonitoringForRegion:(CDVInvokedUrlCommand*)command;
 - (void)stopMonitoringForRegion:(CDVInvokedUrlCommand*)command;
