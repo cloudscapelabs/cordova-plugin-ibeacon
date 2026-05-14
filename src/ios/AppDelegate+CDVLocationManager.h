@@ -18,6 +18,8 @@
  */
 
 #import "AppDelegate.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface AppDelegate (CDVLocationManager)
 

@@ -18,6 +18,7 @@
  */
 
 #import "CDVLocationManager.h"
+#import <Foundation/Foundation.h>
 #import "LMLogger.h"
 
 @implementation CDVLocationManager {

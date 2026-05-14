@@ -18,6 +18,7 @@
  */
 
 #import "LMLogger.h"
+#import <UIKit/UIKit.h>
 
 @class CDVLocationManager;
 @class AppDelegate;
